@@ -40,6 +40,8 @@ function App() {
       .then((res) => {
         return res.json();
 
+      }).catch(error => {
+        console.log('取得失敗しました。');
       })
       //dataに格納
       .then((data)=> {
@@ -73,6 +75,8 @@ function App() {
       .then((res) => {
         return res.json();
 
+      }).catch(error => {
+        console.log('取得失敗しました。');
       })
       //dataに格納
       .then((data)=> {
